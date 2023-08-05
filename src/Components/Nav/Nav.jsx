@@ -1,6 +1,7 @@
 import { useState } from "react";
 import './Nav.css'
 import { Link } from "react-router-dom";
+// eslint-disable-next-line react/prop-types
 const Nav = ({ navBar }) => {
     const [dropNav, setDropNav] = useState('none');
     // const [dropNavUtilities, setDropNavUtilities] = useState('none');

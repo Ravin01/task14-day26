@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './TopNav.css';
 import { Link } from 'react-router-dom';
 
+// eslint-disable-next-line react/prop-types
 const TopNav = ({ resNavBar, NorNavBar }) => {
     const [popupBell, setPopupBell] = useState('none')
     const [popupMail, setPopupMail] = useState('none')
